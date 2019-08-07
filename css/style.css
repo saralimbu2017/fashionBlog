@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .header {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.nav-header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+   height: 100%;
+  /*margin-bottom: 2rem; */
+  /* font-size: 1.5rem; */
+  /* padding: 0.5rem 0; */
+  
+ 
+}
+
+.fashionTitle {
+  color: red;
+  font-size: 2rem;
+}
+
+.menuOne  {
+   display: flex; 
+  /* justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+  border-bottom: 0.15rem solid white;
+  border-right: 1rem solid white;
+  color:white;
+   flex-basis: 100%; 
+   justify-content: center;
+  align-items: center;
+  
+
+   
+}
+.menuTwo  {
+  /* justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+  display: flex; 
+  border-bottom: 0.15rem solid white;
+  border-right: 1rem solid white;
+  color:white;
+   flex-basis: 100%; 
+   justify-content: center;
+   align-items: center;
+}
+.menuThree  {
+  display: flex; 
+  /* justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+  border-bottom: 0.15rem solid white;
+  border-right: 1rem solid white;
+  color:white;
+   flex-basis: 100%; 
+   justify-content: center;
+   align-items: center;
+}
+.menuFour  {
+  display: flex; 
+  /* justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+  border-bottom: 0.15rem solid white;
+  border-right: 1rem solid white;
+  color:white;
+   flex-basis: 100%; 
+   justify-content: center;
+   align-items: center;
+}
+.menuFive  {
+  display: flex; 
+  /* justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+  border-bottom: 0.15rem solid white;
+  border-right: 1rem solid white;
+  color:white;
+   flex-basis: 100%; 
+   justify-content: center;
+   align-items: center;
+}
+.menuSix  {
+  display: flex; 
+  /* justify-content: center;
+  flex-direction: column;
+  text-align: center; */
+  border-bottom: 0.15rem solid white;
+  border-right: 1rem solid white;
+  color:white;
+   flex-basis: 100%; 
+   justify-content: center;
+   align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+main {
+ 
+flex-basis: 100%;
+
+}
+
+
+aside {
+
+  flex-basis:100%;
+}
+
+main .brooklyn {
+  /* display: flex; */
+  margin-bottom: 70px;
+  border-bottom: 1px solid grey;
+  /* flex-grow: 1; */
+}
+main .brooklyn img {
+  width:100%;
+}
+main .brooklyn footer {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+main .brooklyn footer a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+main .vogue {
+  margin-bottom: 70px;
+  border-bottom: 1px solid grey;
+}
+main .vogue img {
+  width:100%;
+}
+main .vogue footer {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+main .vogue footer a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+/* .myDropcap {
+  color: grey;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+} */
+main .brooklyn p:first-letter {
+  color: grey;
+  font-size: 2rem;
+  
+  float: left;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+main .vogue p:first-letter {
+  color: grey;
+  font-size: 2rem;
+  
+  float: left;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+.aboutUs {
+  /* padding-left: 1rem; */
+  padding-bottom: 2rem;
+  margin:2rem;
+  border-bottom: .05rem solid grey;
+}
+.aboutUs a{
+  float:right;
+  text-decoration: none;
+  color:red;
+}
+aside .posts {
+  /* padding: 0 2rem; */
+  border: 0px solid green;
+  margin:2rem;
+  background-color: white;
+}
+
+aside .posts ul {
+  padding-right: 10px;
+  list-style-type: solid circle;
+}
+aside .posts ul li {
+  padding-right: 40px;
+} 
+aside .posts ul li a {
+  padding-right: 40px;
+  color: red;
+  text-decoration: none;
+}
+.nav-footer a{
+  color:red;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-right: 0.25rem;
+  border-right: 0.05rem solid grey;
+}
+
+.nav-footer a:last-child {
+  border-right: 0;
+  /* border-right: 0.05rem solid grey; */
+  
+} 
+.nav-footer p {
+  float:left;
+}
+.copyright {
+  text-align:left;
+}
+/* .nav-footer a:last-child {
+  border-right:none;
+}  */
+@media (min-width:30rem) {
+  .header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  
+  
+  }
+  main {
+  display:flex; 
+  flex-wrap: wrap;
+    flex-basis: 60%;
+    height: 100%;
+    
+  }
+  main .brooklyn {
+    /* display: flex; */
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+    flex-shrink: 1;
+    /* flex-grow: 1; */
+  }
+  main .brooklyn h3 {
+    color:grey;
+    font-weight: 200;
+  }
+  aside {
+    flex-basis: 35%
+  }
+  .menuOne  {
+    border-bottom: 0.15rem solid white;
+    border-right: 0.05rem solid white;
+    color:white;
+    flex-basis: 15%;
+    height:3rem;
+  }
+  .menuTwo  {
+    border-bottom: 0.15rem solid white;
+    border-right: 0.05rem solid white;
+    color:white;
+    flex-basis: 17%;
+  }
+  .menuThree  {
+    border-bottom: 0.15rem solid white;
+    border-right: 0.05rem solid white;
+    color:white;
+    flex-basis: 17%;
+  }
+  .menuFour  {
+    border-bottom: 0.15rem solid white;
+    border-right: 0.05rem solid white;
+    color:white;
+    flex-basis: 17%;
+  }
+  .menuFive  {
+    border-bottom: 0.15rem solid white;
+    border-right: 0.05rem solid white;
+    color:white;
+    flex-basis: 17%;
+  }
+  .menuSix  {
+    border-bottom: 0.15rem solid white;
+    border-right: 0.05rem solid white;
+    color:white;
+    flex-basis: 17%;
+  }
+}

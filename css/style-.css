@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+
+}
+header {
+  width: 100%;
+}
+.fashionTitle {
+  color: red;
+  font-size: 2rem;
+}
+.nav-header {
+  display: block;
+  background-color: black;
+  
+}
+
+.nav-header a {
+  width: 15%;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  /* line-height: 2rem; */
+  padding:0.25rem;
+  border-right: 0.05rem solid white;
+  text-align: center;
+}
+/* .nav-header .anchor {
+  border-right: 0.05rem solid white;
+} */
+/* .nav-header a:last-child {
+  border-right: 0;
+} */
+.container {
+  display: flex;
+  border: 0px solid red;
+  /* justify-content:space-between; */
+  
+  align-items:flex-start;
+
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.nav a {
+  /* display:block; */
+  width: 100%;
+  text-align: center;
+  
+}
+main {
+  border: 0px solid blue;
+  width:60%;
+  background-color: white;
+  /* margin: 0rem 4rem 2rem 0rem; */
+  margin: 0px 40px 0px 0px;
+
+}
+article {
+  margin-bottom: 70px;
+  border-bottom: 1px solid grey;
+}
+article img {
+  width:100%;
+}
+article footer {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+article footer a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+
+aside {
+  padding: 0 1rem;
+  border: 0px solid green;
+  width:35%;
+  background-color: white;
+}
+aside ul {
+ 
+  padding-right: 10px;
+  list-style-type: solid circle;
+  
+}
+aside ul li{
+ 
+  padding-right: 40px;
+
+
+}
+aside ul li a{
+ 
+  padding-right: 40px;
+  color: red;
+  text-decoration: none;
+
+} 
+.about {
+  padding-bottom: 2rem;
+  border-bottom: .05rem solid grey;
+}
+.about a{
+  float:right;
+  text-decoration: none;
+  color:red;
+}
+.myDropcap {
+  color: grey;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.nav-footer a {
+  color:red;
+  text-decoration: none;
+  border-right: 0.05rem solid grey;
+  font-size: 1rem;
+  padding-right: 0.25rem;
+}
+.nav-footer>a:last-child {
+  border-right:0;
+}
+@media(min-width:30rem) {
+  body {
+    background-color: aqua;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+   
+  }
+  .nav a {
+      width:10%;
+      /* margin-right:0.05rem; */
+ 
+    /* text-align: center;*/
+    
+  }
+
+
+}
