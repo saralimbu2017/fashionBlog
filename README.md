@@ -20,3 +20,10 @@
       It is a Fashion Blog built with HTML and CSS.
     </p>
 </div>
+
+
+<!--Technologies Used-->
+## BUILT WITH
+- HTML
+- CSS
+<p align="right">(<a href="#top">back to top</a>)</p>
