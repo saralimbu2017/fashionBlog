@@ -13,6 +13,7 @@
     <h1> Fashion Blog</h1>
     <h5>ABOUT THE PROJECT</h2>
     <a href="https://github.com/saralimbu2017/fashionBlog">
+        <img width="1280" alt="fashion_blog" src="https://user-images.githubusercontent.com/28947316/138590977-c2889267-d026-4219-adba-662e4e5a9d15.png">
     </a>
 </div>
 <div>
